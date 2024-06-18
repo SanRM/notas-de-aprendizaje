@@ -6,7 +6,6 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://SanRM.github.io/notas-de-aprendizaje/blog"/>
     <subtitle>Notas de aprendizaje Blog</subtitle>
-    <icon>https://SanRM.github.io/notas-de-aprendizaje/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://SanRM.github.io/notas-de-aprendizaje/blog/welcome</id>
