@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://SanRM.github.io/notas-de-aprendizaje/blog</id>
-    <title>Notas de aprendizaje - TEST Blog</title>
+    <title>Notas de aprendizaje Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://SanRM.github.io/notas-de-aprendizaje/blog"/>
-    <subtitle>Notas de aprendizaje - TEST Blog</subtitle>
+    <subtitle>Notas de aprendizaje Blog</subtitle>
     <icon>https://SanRM.github.io/notas-de-aprendizaje/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
