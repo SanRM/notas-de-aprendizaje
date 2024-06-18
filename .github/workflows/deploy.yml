@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+    paths:
+      - 'notas-de-aprendizaje/**'
 
 jobs:
   build:
@@ -23,6 +23,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build website
+        working-directory: notas-de-aprendizaje
         run: yarn build
 
       - name: Upload Build Artifact
