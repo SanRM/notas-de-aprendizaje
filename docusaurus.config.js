@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Notas de aprendizaje - TEST',
+  title: 'Notas de aprendizaje',
   tagline: 'Santiago Rodriguez Morales',
   favicon: 'img/favicon.ico',
 
