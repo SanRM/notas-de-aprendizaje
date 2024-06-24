@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Notas Organizadas',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Mis notas de aprendizaje están organizadas por categorías y temas para facilitar su consulta.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Enfoque en el Aprendizaje',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        El objetivo principal de estas notas es facilitar el aprendizaje y la revisión de conceptos importantes.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Basado en la Experiencia',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Estas notas se basan en mi experiencia personal de aprendizaje y pueden ser útiles para otros que estén en un camino similar.
       </>
     ),
   },
