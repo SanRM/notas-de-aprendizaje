@@ -4,18 +4,14 @@ title: Introducción
 
 ---
 
-Linux es de Código Abierto. ¿Qué significa eso? El código que impulsa a Linux no es propiedad de una empresa. En cambio, lo desarrolla la comunidad que lo usa. ¿Por qué es esto bueno? Libera a los usuarios de los costos de licencia y permite modificar el código según las necesidades cambiantes.
 
-Linux® es una marca registrada de Linus Torvalds en los Estados Unidos y otros países.
+<Row>
 
-<img src="./img/1.png" alt="Descripción de la imagen" width="300" height="200">
-</img>
+<img src="https://raw.githubusercontent.com/SanRM/notas-de-aprendizaje/main/docs/Sistemas%20operativos/Linux/img/1.png" height="400" />
 
-<Card>
-    
-![1](./img/1.png)
+aasd
 
-</Card>
+</Row> 
 
 <Card>
     

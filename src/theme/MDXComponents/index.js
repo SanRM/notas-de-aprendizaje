@@ -16,6 +16,7 @@ import Mermaid from '@theme/Mermaid';
 import Card from '@site/src/components/Card/Card';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import Row from '@site/src/components/Row/Row';
 
 const MDXComponents = {
   Head,
@@ -36,6 +37,7 @@ const MDXComponents = {
   admonition: Admonition,
   mermaid: Mermaid,
   Card: Card,
+  Row: Row,
   Tabs: Tabs,
   TabItem: TabItem,
 };
