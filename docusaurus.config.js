@@ -118,8 +118,8 @@ const config = {
       },
       prism: {
         theme: prismThemes.jettwaveDark,
-        darkTheme: prismThemes.vsDark,
-        additionalLanguages: ['java', 'dart', 'python'],
+        darkTheme: prismThemes.dracula,
+        additionalLanguages: ['java', 'dart', 'python', 'bash'],
       },
     }),
 };
