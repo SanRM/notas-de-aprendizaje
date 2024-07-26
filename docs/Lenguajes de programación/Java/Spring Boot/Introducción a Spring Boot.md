@@ -82,7 +82,7 @@ Spring Boot gestiona todo el ciclo de vida de los beans, desde su creación hast
 
 </Card>
 
-<Card>
+<Card color='darkBlue'>
     
 ## Ejemplo práctico
 
@@ -191,7 +191,7 @@ Spring gestiona el ciclo de vida completo de los beans, asegurándose de que sea
 
 </Card>
 
-<Card>
+<Card color='cyan'>
     
 ## Beneficios de Usar Spring Boot
 

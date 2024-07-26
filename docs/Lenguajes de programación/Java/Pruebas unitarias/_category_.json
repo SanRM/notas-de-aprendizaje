@@ -1,0 +1,8 @@
+{
+  "label": "Test unitarios",
+  "link": {
+    "type": "generated-index",
+    "description": "Los test unitarios son una técnica de programación que consiste en escribir código que verifica la funcionalidad de un componente de software de forma aislada. Los test unitarios son una parte fundamental de la metodología de desarrollo ágil y se utilizan para garantizar que el código cumple con los requisitos y especificaciones definidos."
+  }
+}
+  
