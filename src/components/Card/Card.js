@@ -46,21 +46,44 @@ function getLighterBackgroundColor(colorName, solidBackground = false) {
   }
 }
 
-export default function Card({children, color = 'default', solidBackground = false}) {
+/**
+ * Ejemplo uso de la función Card:
+ * 
+  <Card solidBackground='true' color='white' header='Header' footer='Footer' textAlign='center'>
+
+    ![Docusaurus logo](https://docs.spring.io/spring-security/reference/_images/servlet/architecture/filterchain.png)
+
+  </Card>
+ */
+export default function Card({children, color = 'default', solidBackground = false, header = '', footer = '', textAlign = 'left'}) {
   const borderColor = COLORS[color] ? COLORS[color] : COLORS.default;
   const backgroundColor = getLighterBackgroundColor(color, solidBackground);
 
   return (
-    <div
+      <div
       style={{
         backgroundColor: backgroundColor,
         borderRadius: '5px',
-        padding: '20px 20px 0px 20px',
+        padding: textAlign === 'center' ? '20px 20px 0px 20px' : '20px 20px 0px 20px', // Cambia el padding dependiendo de la alineación
         margin: '5px 0px 20px 0px',
         border: `1px solid ${borderColor}`,
         color: 'var(--ifm-color-emphasis-900)',
+        textAlign: textAlign,
       }}>
-      {children}
-    </div>
+            <i style={{
+              backgroundColor: 'var(--ifm-color-emphasis-100)',
+              color: 'var(--ifm-color-emphasis-900)'
+            }}>
+            {header}
+          </i>
+        {children}
+        
+            <i style={{
+              backgroundColor: 'var(--ifm-color-emphasis-100)',
+              color: 'var(--ifm-color-emphasis-900)'
+            }}>
+            {footer}
+          </i>
+      </div>
   );
 }

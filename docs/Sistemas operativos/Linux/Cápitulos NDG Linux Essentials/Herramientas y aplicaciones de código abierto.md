@@ -1,6 +1,6 @@
 ---
 
-title: Herramientas y aplicaciones de código abierto
+title: Aplicaciones de código abierto y licencias
 sidebar_position: 2
 
 ---

@@ -1,0 +1,8 @@
+{
+  "label": "Variables",
+  "link": {
+    "type": "generated-index",
+    "description": "Las variables en linux son un espacio de memoria que se utiliza para almacenar información, estas variables pueden ser de entorno o de shell."
+  }
+}
+  

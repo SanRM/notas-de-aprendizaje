@@ -8,6 +8,18 @@ tags: [docusaurus, ayuda]
 
 # Hoja de ayuda de componentes docusaurus
 
+
+## Ejecutar documentación localmente
+
+```bash
+npm run start
+```
+
+Luego diríjase a [http://localhost:3000](http://localhost:3000) en el navegador.
+
+---
+
+
 ## Detalles desplegables
 
 <details>

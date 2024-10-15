@@ -1,6 +1,6 @@
 ---
 
-title: Introducción
+title: Introducción a Linux
 sidebar_position: 1
 
 ---
@@ -8,7 +8,7 @@ sidebar_position: 1
 
 <Row>
 
-<img src="https://raw.githubusercontent.com/SanRM/notas-de-aprendizaje/main/docs/Sistemas%20operativos/Linux/img/1.png" height="400" />
+<img src="https://github.com/SanRM/notas-de-aprendizaje/blob/main/docs/Sistemas%20operativos/Linux/img/2-LPI-Graphics.png?raw=true" height="400" />
 
 <p>
 ## Linux es de Código Abierto. 
