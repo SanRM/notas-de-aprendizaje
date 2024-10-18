@@ -5,6 +5,7 @@ sidebar_position: 8
 
 El **ExceptionTranslationFilter** es un filtro en Spring Security que maneja excepciones relacionadas con la seguridad, específicamente las siguientes:
 
+
 <Card color='red'> 
 1. **AuthenticationException**: Se lanza cuando un usuario no está autenticado (es decir, no ha proporcionado credenciales válidas).
 </Card>
@@ -72,6 +73,26 @@ Si no se lanza ninguna excepción de seguridad, entonces el `ExceptionTranslatio
 
 </Card>
 
+<Card color='default' textAlign='center'>
+
+![alt](https://docs.spring.io/spring-security/reference/_images/servlet/architecture/exceptiontranslationfilter.png)
+
+<Card>
+
+1. El **ExceptionTranslationFilter** invoca `FilterChain.doFilter(request, response)` para continuar con el resto de la aplicación.
+   
+2. Si el usuario no está autenticado o se produce una **AuthenticationException**:
+   - Comienza el proceso de **Autenticación**.
+   - El **SecurityContextHolder** se limpia.
+   - El **HttpServletRequest** se guarda para que pueda reutilizarse la solicitud original después de una autenticación exitosa.
+   - Se utiliza el **AuthenticationEntryPoint** para solicitar las credenciales del cliente (por ejemplo, redirigiendo a una página de inicio de sesión o enviando un encabezado WWW-Authenticate).
+
+3. Si se trata de una **AccessDeniedException** (denegación de acceso), se maneja con el **AccessDeniedHandler** para gestionar la denegación del acceso.
+
+</Card>
+
+</Card>
+
 <Card color='green'>
 
 ### Ejemplo de Pseudo Código
@@ -106,5 +127,6 @@ try {
 Las excepciones como **AuthenticationException** y **AccessDeniedException** pueden ser lanzadas por otros componentes de seguridad, como el **FilterSecurityInterceptor** o la seguridad basada en métodos (cuando proteges métodos con anotaciones como `@PreAuthorize`).
     
 </Card>
+
 
 El **ExceptionTranslationFilter** es una pieza clave de la seguridad en Spring porque gestiona cómo se manejan los errores de autenticación y autorización. Si hay un problema con la autenticación, el filtro inicia el proceso para que el usuario proporcione credenciales. Si hay un problema con los permisos, gestiona el acceso denegado. Al estar integrado en la cadena de filtros, este filtro asegura que tu aplicación responda correctamente a las solicitudes no autorizadas o no autenticadas.
