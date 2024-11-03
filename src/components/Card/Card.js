@@ -1,5 +1,5 @@
 const COLORS = {
-  default: 'var(--ifm-color-emphasis-200)', // Color por defecto
+  default: 'var(--ifm-toc-border-color)', // Color por defecto
   pink: 'rgba(255, 0, 172, 0.5)',
   red: 'rgba(255, 0, 0, 0.5)',
   blue: 'rgba(0, 204, 255, 0.5)',

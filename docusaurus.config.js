@@ -8,6 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  trailingSlash: false,
   title: 'Notas de aprendizaje',
   tagline: 'Santiago Rodriguez Morales',
   // Set the production url of your site here
